@@ -31,7 +31,7 @@ def plot_order_book(bids, asks):
     # Plot bids and asks
     plt.barh(bids['Price'], bids['Volume'], color='green', label='Bids', alpha=0.7)
     plt.barh(asks['Price'], asks['Volume'], color='red', label='Asks', alpha=0.7)
-hisin ox x
+
     # Highlight bid-ask spread
     highest_bid = bids['Price'].max()
     lowest_ask = asks['Price'].min()
