@@ -11,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Initialize Binance API (Public access)
-def fetch_historical_data(symbol='BTC/USDT', timeframe='1h', limit=100):
+def fetch_historical_data(symbol='DOGE/USDT', timeframe='1h', limit=100):
     binance = ccxt.binance({
         'rateLimit': 1200,
         'enableRateLimit': True,
@@ -105,3 +105,4 @@ def plot_with_signals(df, fib_levels, signals):
     plt.show()
 
 plot_with_signals(data, fib_levels, signals)
+
