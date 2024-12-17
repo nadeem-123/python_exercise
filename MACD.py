@@ -1,3 +1,11 @@
+"""
+Project Overview:
+The MACD(Moving Average Convergence Divergence) indicator is a trend-following tool that identifies momentum:
+
+Buy Signal: When the MACD line crosses above the Signal line (Bullish Crossover).
+Sell Signal: When the MACD line crosses below the Signal line (Bearish Crossover).
+"""
+
 import ccxt
 import pandas as pd
 import matplotlib.pyplot as plt
